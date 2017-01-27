@@ -2,9 +2,31 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
+    destination: /var/www/html/  
+  - source: /about.html
+    destination: /var/www/html/  
+  - source: /post-1.html
+    destination: /var/www/html/
+  - source: /post-2.html
+    destination: /var/www/html/
+  - source: /post-3.html
+    destination: /var/www/html/    
+  - source: /post-4.html
+    destination: /var/www/html/   
+  - source: /post-5.html
     destination: /var/www/html/
   - source: css
     destination: /var/www/html/css
+  - source: font
+    destination: /var/www/html/font
+  - source: owl-carousel
+    destination: /var/www/html/owl-carousel
+  - source: img
+    destination: /var/www/html/img  
+  - source: js
+    destination: /var/www/html/js
+
+    
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
