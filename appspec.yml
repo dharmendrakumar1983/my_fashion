@@ -15,6 +15,10 @@ files:
     destination: /var/www/html/   
   - source: /post-5.html
     destination: /var/www/html/
+  - source: /archive.html
+    destination: /var/www/html/  
+  - source: /contact.html
+    destination: /var/www/html/      
   - source: css
     destination: /var/www/html/css
   - source: font
